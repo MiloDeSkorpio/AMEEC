@@ -4,54 +4,74 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/normalize.css">
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="preload" href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" crossorigin="crossorigin" as="font">
     <link href="https://fonts.googleapis.com/css2?family=Open+Sans&family=PT+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <title>AMEEC</title>
+    <script src="https://kit.fontawesome.com/93ba83de07.js" crossorigin="anonymous"></script>
+    <title>AMEEC-Nosotros</title>
 </head>
 <body>
-    <header class="header">
-        <div class="contenedor">
-            <div class="barra">
-                <a href="index.html" class="logo">
-                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+<header class="hero">
+    <nav class="nav container" id="nav">
+        <div class="box">
+            <figure>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
                 </a>
-                <nav class="navegacion">
-                    <a href="nosotros.html" class="navegacion__enlace">Nosotros</a>
-                    <a href="cursos.html" class="navegacion__enlace">Cursos</a>
-                    <a href="contacto.html" class="navegacion__enlace">Contacto</a></nav>
-            </div>
-        </div>
-        <div class="header__texto">
-                <h2 class="no margin">Blog de café con consejos y cursos</h2>
-                <p class="no-margin">Aprende de los expertos con las mejores recetas y consejos</p>
-         </div>
-    </header> 
-    <main class="contenedor ">
-        <h3 class="centrar-texto">Sobre Nosotros</h3>
-        <div class="sobre-nosotros">
-            <div class="sobre-nosotros__imagen">
-                <img src="img/nosotros.jpg" alt="imagen nosotros">
-            </div>
-            <div class="sobre-nosotros__texto">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Blanditiis saepe, quam temporibus repudiandae aperiam repellat! Qui consectetur omnis amet repellat ipsa veritatis quo nemo eum cum, nobis quaerat inventore eos!</p>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur, iste. Officia, sequi debitis? Praesentium, incidunt molestias expedita debitis modi, veniam, quam quibusdam officia iste rem error voluptate nostrum beatae excepturi!</p>
-            </div>
-        </div>
-    </main>
-    <footer class="footer">
-        <div class="contenedor">
-            <div class="barra">
-                <a href="index.php" class="logo">
-                    <h1 class="logo__nombre no-margin centrar-texto">Blog<span class="logo__bold">DeCafé</span></h1>
+            </figure>
+        </div> <!-- .box-->
+        <ul class="nav-links">
+            <li class="nav-item">
+                <a href="nosotros.html" class="nav-link">Nosotros</a>
+            </li> <!-- .nav-item-->
+            <li class="nav-item">
+                <a href="proyectos.html" class="nav-link">Proyectos</a>
+            </li> <!-- .nav-item-->
+            <li class="nav-item">
+                <a href="noticias.html" class="nav-link">Noticias</a>
+            </li> <!-- .nav-item-->
+            <li class="nav-item">
+                <a href="invierte.html" class="nav-link">Invierte</a>
+            </li> <!-- .nav-item-->
+        </ul> <!-- .nav-links-->
+        <a href="#nav" class="nav-menu">
+            <img src="img/menu.svg" alt="menu" class="nav-icon">
+        </a> <!-- .nav-menu-->
+        <a href="#" class="nav-close">
+            <img src="img/close.svg" alt="close" class="nav-icon">
+        </a> <!-- .nav-close-->
+    </nav> <!-- .nav .container #nav-->
+</header> <!-- .hero-->
+<div class="container">
+    <h1>Nosotros</h1>
+</div>
+<footer class="footer">
+    <div class="top">
+        <div class="box">
+            <figure>
+                <a href="index.html">
+                    <img src="img/logo.png" alt="logo">
                 </a>
-                <nav class="navegacion">
-                    <a href="nosotros.php" class="navegacion__enlace">Nosotros</a>
-                    <a href="cursos.php" class="navegacion__enlace">Cursos</a>
-                    <a href="contacto.php" class="navegacion__enlace">Contacto</a></nav>
-            </div>
-        </div>
-    </footer>
-</body>
+            </figure>
+        </div> <!-- .box-->
+        <div class="box">
+            <h2>SOBRE NOSOTROS</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio, ipsa?</p>
+        </div> <!-- .box-->
+        <div class="box">
+            <h2>SIGUENOS</h2>
+            <div class="red-social">
+                <a href="#" class="fa fa-facebook"></a>
+                <a href="#" class="fa fa-instagram"></a>
+                <a href="#" class="fa fa-twitter"></a>
+                <a href="#" class="fa fa-youtube"></a>
+            </div>  
+        </div> <!-- .box-->
+    </div> <!-- .top-->
+    <div class="bot">
+        <small>&copy; 2022 <b>AMEEC</b> - Todos los Derechos Reservados.</small>
+    </div> <!-- .bot-->
+</footer> <!-- .footer-->
+</body> 
 </html>
